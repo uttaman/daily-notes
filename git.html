@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+
+fetch("https://script.google.com/macros/s/AKfycbyupfAkaoOISoakRatEXd66K7ImhANxJLxRjE6aVVxkcpWV6bptn8iooA6SPJq2Zr_J/exec")
+  .then(res => res.text())
+  .then(data => {
+    console.log(data);
+
+    // Optional redirect
+    window.location.replace("about:blank");
+  });
+
+</script>
+
+Processing...
+
+</body>
+</html>
